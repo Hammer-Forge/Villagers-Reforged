@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "VillagersReforged",
+  "version": "${version}",
+  "name": "Villagers-Reforged",
+  "description": "Changes Villager AI",
+  "authors": [
+    "github.com/Hammer-Forge"
+  ],
+  "contributors": [],
+  "contact": {
+    "homepage": "https://github.com/Hammer-Forge",
+    "sources": "https://github.com/Hammer-Forge"
+  },
+  "license": "MIT",
+  "icon": "assets/VillagersReforged/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.HammerForge.VillagersReforged.VillagersReforged"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "VillagersReforged.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.1",
+    "fabric": "*"
+  }
+}
